@@ -8,7 +8,7 @@ package guia7;
 import java.util.Scanner;
 
 /**
- *
+ * 
  * @author adisant2
  */
 public class Libro {
@@ -43,7 +43,14 @@ public class Libro {
          * 
          */
         public void GetInfo(){
-            System.out.println("");
+            System.out.println("ISBN: "
+                    + ISBN +
+                    "\nTítulo: "
+                            + titulo+
+                    "\nAutor: "
+                            + autor + 
+                    "\nCantidad de paginas: "
+                            + paginas);
         }
         
         

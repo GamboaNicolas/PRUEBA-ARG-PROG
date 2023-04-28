@@ -17,6 +17,7 @@ public class Objetos_ej1 {
         
         escrito.SetInfo();
         
+        escrito.GetInfo();
         
     }
     
