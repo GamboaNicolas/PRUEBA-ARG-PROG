@@ -4,21 +4,20 @@
  * and open the template in the editor.
  */
 package guia7;
-/**
+
 /**
  *
  * @author adisant2
  */
-public class Objetos_prueba1 {
-    
+public class Objetos_ej1 {
+ 
     public static void main(String[] args){
         
-        Persona pers1 = new Persona();
-        pers1.edad = 20;
-        pers1.nombre = "Nicolas";
-        pers1.pesoKG = 56;
+        Libro escrito = new Libro();
         
-         
+        escrito.SetInfo();
+        
+        
     }
     
 }
